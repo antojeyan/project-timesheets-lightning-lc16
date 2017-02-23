@@ -359,7 +359,7 @@ MOD( DATE(YEAR(Date_of_Work__c), 1, 1) - DATE (1900, 1, 7), 7),
         <columns>Consultant_Name__c</columns>
         <columns>Customer_Name__c</columns>
         <columns>P_Opportunity_Name__c</columns>
-        <filterScope>Mine</filterScope>
+        <filterScope>Everything</filterScope>
         <label>My Timesheets</label>
     </listViews>
     <listViews>
