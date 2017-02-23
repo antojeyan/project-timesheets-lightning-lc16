@@ -1,6 +1,6 @@
 public class ProjectTimesheetsHandler {
 
-    @AuraEnabled
+    /**@AuraEnabled
     public static List<Project_Timesheet__c> getMyTimesheets_OLD() {        
         List<Project_Timesheet__c> projectsTimesheet = [SELECT Id,Name,Date_of_Work__c,Project_Name__c,
                                                         Project_Name_Text__c,P_Opportunity_Name__c,
@@ -42,6 +42,6 @@ public class ProjectTimesheetsHandler {
                                LIMIT 8 OFFSET :offset];
         System.debug(p);
         return p;        
-    }
+    }**/
     
 }
