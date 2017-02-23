@@ -1,6 +1,6 @@
 public class ProjectsHandler {
 
-	@AuraEnabled
+	/***@AuraEnabled
     public static List<Project__c> getProjects() {        
 
 											
@@ -15,5 +15,5 @@ public class ProjectsHandler {
                                                        LIMIT 10];
 
         return projects;
-    }
+    }**/
 }
