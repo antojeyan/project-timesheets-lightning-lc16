@@ -1,6 +1,6 @@
 public class ProjectTimesheetFormController {
 
-    @AuraEnabled
+   /** @AuraEnabled
     public static Project_Timesheet__c getProjectTimesheet(String recordId) {
 		System.debug('recordId: ' + recordId);
         if((recordId == '') || (recordId == null)) {            
@@ -105,6 +105,6 @@ public class ProjectTimesheetFormController {
         	options.add(deptPickVal.getLabel());
         }
         return options;
-    }
+    }**/
     
 }
